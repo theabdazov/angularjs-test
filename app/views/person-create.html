@@ -1,0 +1,8 @@
+<h2>Adding</h2>
+<form name="personForm">
+  <div class="form-group" ng-repeat="field in fields">
+    <label>{{field}}</label>
+    <input type="text" class="form-control form-control-sm" ng-model="person[field]" required >
+  </div>
+  <button type="submit" class="btn btn-primary btn-sm" ng-click="save(person, personForm)">Submit</button>
+</form>

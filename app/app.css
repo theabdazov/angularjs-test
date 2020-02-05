@@ -1,0 +1,49 @@
+/* app css stylesheet */
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+
+.body{
+  background-color: silver;
+}
+
+.table-wrapper{
+  width: 100%;
+  overflow: auto;
+}
+
+
+table{
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+  padding-top: 1px;
+}
+table>tbody>tr>td{
+  text-align: left;
+}
+
+table>tbody>tr>td:nth-child(2),table>tbody>tr>td:nth-child(3),table>tbody>tr>td:nth-child(4){
+  text-align: center;
+}
+
+a:not([href]).link-btn:hover{
+  color: #007bff;
+  cursor: pointer;
+}
+
+.table-row:hover{
+  font-weight: 600;
+}
+
+.block-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block{
+  width: 30%;
+  border: 1px silver solid;
+  padding: 10px;
+}
+.block:nth-child(3n){
+  width: 40%;
+}
