@@ -47,3 +47,9 @@ a:not([href]).link-btn:hover{
 .block:nth-child(3n){
   width: 40%;
 }
+
+.form-wrapper{
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #c5c5c5;
+}
